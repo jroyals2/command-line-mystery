@@ -19,10 +19,10 @@ head -n 20 . /people
 grep Annabel ./people
 
 /// found 4 people named Annabel
-/// one on 26 Hart Place
-/// one on 38 Buckingham Place
-/// one on Mattapan Street
-/// one on Haley Street
+/// one on 26 Hart Place line 40
+/// one on 38 Buckingham Place 179
+/// one on 37 Mattapan Street 173 
+/// one on 40 Haley Street 176
 
 cd streets
 
@@ -37,5 +37,19 @@ cat Buckingham_Place
 cat Mattapan_Street
 
 /// wrong house again
+/// trying a new style after looking at some hints
+
+head -n 40 Hart_Place | tail -n 1
+
+/// got interview  #47246024
+/// ran code for the other 3 addresses
+/// Buckinghamn = interview  #699607
+/// Mattapan = #9437737
+/// Haley = #871877
+
+
+
+
+
 
 
