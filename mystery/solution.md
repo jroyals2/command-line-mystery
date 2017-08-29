@@ -47,6 +47,13 @@ head -n 40 Hart_Place | tail -n 1
 /// Mattapan = #9437737
 /// Haley = #871877
 
+cd interviews
+
+cat interview-47246024
+
+/// Ms. Sun is not from New Zealand
+ cat interview-699607
+///Ms Church saw a blue Honda license plate ///starts with l337 and ends with 9
 
 
 
