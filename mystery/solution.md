@@ -66,7 +66,26 @@ grep -A 5 "L337" ./vehicles
 # this narrowed my search to find that Aron Pilhofer , Joe Germuska, Jeremy Bowers are the prime suspects that fit the description.
 # now to find out who is a member to the cards that were found
 
+cd memberships
 
+# looking for who is a member of AAA, Delta_SkyMiles, and Museum_of_Bash_History
+
+grep Aron ./AAA
+
+# Not a member 
+
+grep Joe ./AAA
+
+# is a a member of AAA
+grep Jeremy ./AAA
+# also a member
+grep Joe ./Delta_Skymiles
+# Not a member of Delta
+grep Jeremy ./Delta_SkyMiles
+# Jeremy is a member of both. The only one of both.
+grep Jeremy ./Museum_of_Bash_History
+#And also the library 
+#Jeremy Bowers is the shooter
 
 
 
