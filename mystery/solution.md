@@ -53,7 +53,15 @@ cat interview-47246024
 
 /// Ms. Sun is not from New Zealand
  cat interview-699607
-///Ms Church saw a blue Honda license plate ///starts with l337 and ends with 9
+///Ms Church saw a blue Honda license plate ///starts with l337 and ends with a 9
+
+cd ..
+
+grep L337 ./vehicles
+// returned 12 cars
+/// trying a search with multiple arguments next
+
+
 
 
 
