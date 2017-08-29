@@ -61,6 +61,12 @@ grep L337 ./vehicles
 # returned 12 cars
 # trying a search with multiple arguments next time
 
+grep -A 5 "L337" ./vehicles
+
+# this narrowed my search to find that Aron Pilhofer , Joe Germuska, Jeremy Bowers are the prime suspects that fit the description.
+# now to find out who is a member to the cards that were found
+
+
 
 
 
